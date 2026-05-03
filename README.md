@@ -4,7 +4,7 @@
 
 # Plu
 
-### AI-Powered Atmospheric Emission Risk Monitor
+### Predict who will be affected by industrial emissions — before it happens.
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React%20+%20TypeScript-61DAFB?style=flat-square&logo=react)](https://react.dev/)
@@ -16,6 +16,14 @@
 
 
 </div>
+
+---
+
+## 🚨 The Problem
+Every year, communities living near Cairo's industrial zones breathe toxic air without knowing the danger. Governments build schools and hospitals in polluted areas. Families with asthma move into danger zones without warning. Existing systems only monitor — they do NOT predict impact zones or warn vulnerable populations before it's too late.
+
+## 💡 The Solution
+Plu predicts exactly where industrial pollution will spread, how long before it arrives, and who is most at risk — using 50 years of validated atmospheric physics combined with Gemma 4 AI explanations in Arabic and English.
 
 ---
 

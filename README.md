@@ -14,7 +14,6 @@
 
 **Plu** is a production-grade industrial emission decision-support tool. It combines the Gaussian Plume atmospheric dispersion model with real-time weather data and an AI explanation engine (Google Gemma 4 via OpenRouter) to assess, visualize, and explain emission risk — for any city in the world.
 
-[API Docs](http://localhost:8000/docs) · [Report Bug](#)
 
 </div>
 
@@ -279,7 +278,7 @@ Plu is a decision-support tool, not a regulatory-grade dispersion model. Known l
 - Tawfik, B.S. (2005). *Modeling of the Factors Affecting the 
   Distribution of Chimney Emissions to the Atmosphere — 
   Case Study: Shobra El-Kheima Power Plant (SEPP)*.
-  ResearchGate. https://www.researchgate.net/publication/338254428
+  ResearchGate.
 
 - Turner, D.B. (1994). *Workbook of Atmospheric Dispersion 
   Estimates*, 2nd Ed.

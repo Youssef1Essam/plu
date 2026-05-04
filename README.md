@@ -6,6 +6,9 @@
 
 ### Predict who will be affected by industrial emissions — before it happens.
 
+[**Live Demo**](https://plu-two.vercel.app/) 
+
+
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React%20+%20TypeScript-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Gemma 4](https://img.shields.io/badge/AI-Gemma%204%2031B-4285F4?style=flat-square&logo=google)](https://openrouter.ai/)

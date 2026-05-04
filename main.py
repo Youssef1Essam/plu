@@ -16,11 +16,7 @@ app = FastAPI(
 # Configure CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173", 
-        "http://localhost:5174",
-        "http://localhost:4173"
-    ],  # Vite dev and preview
+    allow_origins=["*"],  # Allow all for production deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -67,6 +63,8 @@ async def health_check():
         "ai_enabled": os.getenv("USE_AI_EXPLANATIONS", "false").lower() == "true"
     }
 
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=False)

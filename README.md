@@ -282,7 +282,7 @@ Plu is a decision-support tool, not a regulatory-grade dispersion model. Known l
 
 > For regulatory compliance modeling, use **EPA AERMOD** or **CALPUFF**.
 
----
+--- 
 
 ## References
 
